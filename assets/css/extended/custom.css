@@ -1,0 +1,12 @@
+figure.fullwidth {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    position: relative;
+    max-width: none;
+  }
+  
+  figure.fullwidth img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }

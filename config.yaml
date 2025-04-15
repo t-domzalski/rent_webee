@@ -1,0 +1,25 @@
+baseURL: 'https://example.org/'
+#languageCode = 'en-us'
+title: Kuniec Świata
+theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+menu:
+  main:
+    - identifier: Mail
+      name: "E-mail!"
+      url: "mailto:swiata.kuniec@gmail.com"
+    - identifier: Booking
+      name: "Booking via booking.com!"
+      url: "https://www.booking.com/Share-JRw16RI"
+
+params:
+  assets:
+    customCSS: ["css/custom.css"]
+      
+  
